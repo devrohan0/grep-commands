@@ -1,0 +1,48 @@
+
+
+1) grep -i "keyword" filename : 
+To ignore the upper and lower case while searching
+
+2) grep -v "keyword" filename :
+To search everything except given pattern/keyword
+
+3) grep -c "keyword" filename :
+To print how many times (count) given keyword present in file
+
+4) grep -w "keyword" filename :
+To search for exact match of given keyword in a file
+
+5) grep -n "keyword" filename :
+To print the line no. of matches of given keyword in a file
+
+6) grep "keyword" file1 file2...
+To search a given keyword in multiple files
+
+7) grep -h "keyword" file1 file2...
+To suppress(don't show)  file names while search a given keyword in multiple files
+
+8) grep -e "keyword1" -e "keyword2" file1 file2...
+To search multiple keywords in multiple or single files
+
+9) grep -1 "keyword" file1 file2...
+To only print file names which matches given keyword
+
+10) grep -f keyword.txt file ( or file1 file2...)
+Firstly we have to create a file (ie. keyword.txt) after creating a file we have to
+ write keywords whatever we want to search and save it. After that execute the above 
+command.
+
+11) grep "keyword" filename :
+To print the matching line which start with given keyword
+
+12) grep "keyword$" filename :
+To print the matching line which end with given keyword
+
+13) grep -R "keyword" diractoryname/
+Suppose we have 100 files in a directory (dirA) and we need
+ to search a keyword in all the files
+
+14) egrep "key1|key2|key3" filename
+We can use egrep command for the multiple keywords search
+
+
